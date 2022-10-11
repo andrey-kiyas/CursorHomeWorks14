@@ -20,7 +20,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     private final JwtTokenProvider jwtTokenProvider;
 
-
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.csrf().disable();
