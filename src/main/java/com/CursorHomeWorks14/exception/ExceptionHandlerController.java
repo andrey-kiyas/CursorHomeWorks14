@@ -15,7 +15,7 @@ import java.io.IOException;
 import java.util.Map;
 
 @RestControllerAdvice
-public class GlobalExceptionHandlerController {
+public class ExceptionHandlerController {
 
     @Bean
     public ErrorAttributes errorAttributes() {
